@@ -10,4 +10,5 @@ console.log(firstNUm);  //it will cut index num from orginial array
 let BoysAges = [10, 20, 30, 40, 50,501,453]
 let newAges = BoysAges.splice(2, 4, 23, 454)
 
-console.log(newAges);
+console.log("Array splices",newAges);
+console.log(BoysAges)

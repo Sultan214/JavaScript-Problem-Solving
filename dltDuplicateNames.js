@@ -6,7 +6,7 @@ function naam(names) {
 	const unique = [];
 	for (let i = 0; i < names.length; i++) {
 		const NamesElements = names[i];
-		if (unique.includes(NamesElements) === false) {
+		if (unique.includes(NamesElements) != true) {
 			unique.push(NamesElements)
 		}
 	}
